@@ -75,7 +75,7 @@ ANGLE
 #-------------------------------------------------------------
 SECTION
 #Xle    Yle    Zle     Chord    Ainc  Nspanwise  Sspace
-7.5      0.     0       1       0    0          0
+3.5306      0.     -0.635       0.6223       0    0          0
 
 NACA
 0012
@@ -87,7 +87,31 @@ elevator 1.0    0.75     0.0 0.0 0.0  1.0
 #-------------------------------------------------------------
 SECTION
 #Xle    Yle     Zle     Chord   Ainc  Nspanwise  Sspace
-7.5  	2.5       0       1    0    0          0
+3.5306  	0.2286       -0.635       1.397    0    0          0
+
+NACA
+0012
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+CONTROL
+elevator 1.0    0.75     0.0 0.0 0.0  1.0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle    Yle     Zle     Chord   Ainc  Nspanwise  Sspace
+3.5306  	0.4318       -0.635       1.3208    0    0          0
+
+NACA
+0012
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+CONTROL
+elevator 1.0    0.75     0.0 0.0 0.0  1.0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle    Yle     Zle     Chord   Ainc  Nspanwise  Sspace
+4.1402  	1.651       -0.635       0.381    0    0          0
 
 NACA
 0012
@@ -107,7 +131,7 @@ TRANSLATE
 #------------------------------------------------------------
 SECTION
 #Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
-7.5       0.     0.0     1       0.    0          0
+3.5306      0.     0.0     1       0.    0          0
 
 NACA
 0012
@@ -119,7 +143,7 @@ rudder  -1.0  0.75  0. 0. 0.  1
 #------------------------------------------------------------
 SECTION
 #Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
-8.5       0.     2.5     0.6       0.    0          0
+4       0.     2.5     0.6       0.    0          0
 
 NACA
 0012
