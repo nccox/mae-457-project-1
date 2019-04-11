@@ -5,8 +5,8 @@ Maule M-7-260C
  0       0       0.0					#LEFT AS 0 PER INSTRUCTIONS
 #Sref    Cref    Bref
 16.012      1.6166973       10.03300	#UPDATED
-#Xref    Yref    Zref    # NEEDS TO BE LOCATION OF TRIM CG # NEED TO UPDATE THIS!!
-0.375     0.0     0
+#Xref    Yref    Zref
+0.550     0.0     0
 #
 #===============================================================
 SURFACE
