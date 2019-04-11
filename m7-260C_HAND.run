@@ -1,0 +1,23 @@
+LOAD
+m7-260C.avl
+OPER
+M
+M 842.00
+G 9.81
+D 1.225
+
+d2 rm 0
+d3 pm 0
+d4 ym 0
+D3
+0
+
+c1
+x 0.550
+
+X
+ST
+m7-260C HAND.out
+O
+
+quit
