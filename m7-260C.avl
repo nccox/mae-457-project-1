@@ -106,7 +106,7 @@ NACA
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
 #CONTROL
-#elevator 1.0    0.75     0.0 0.0 0.0  1.0
+elevator 1.0    0.5091     0.0 0.0 0.0  1.0
 #
 #-------------------------------------------------------------
 SECTION
@@ -118,7 +118,7 @@ NACA
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
 #CONTROL
-#elevator 1.0    0.75     0.0 0.0 0.0  1.0
+elevator 1.0    0.5385     0.0 0.0 0.0  1.0
 #
 #-------------------------------------------------------------
 SECTION
@@ -130,9 +130,9 @@ NACA
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
 #CONTROL
-#elevator 1.0    0.75     0.0 0.0 0.0  1.0
+elevator 1.0    0.2667     0.0 0.0 0.0  1.0
 #
-#-------------------------------------------------------------
+#===============================================================
 SURFACE
 Vertical Stabilizer
 #Nchordwise  Cspace   Nspanewise  Sspace
