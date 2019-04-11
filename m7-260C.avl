@@ -93,8 +93,8 @@ NACA
 0012
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
-CONTROL
-elevator 1.0    0.75     0.0 0.0 0.0  1.0
+#CONTROL
+#elevator 1.0    0.75     0.0 0.0 0.0  1.0
 #
 #-------------------------------------------------------------
 SECTION
@@ -105,8 +105,8 @@ NACA
 0012
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
-CONTROL
-elevator 1.0    0.75     0.0 0.0 0.0  1.0
+#CONTROL
+#elevator 1.0    0.75     0.0 0.0 0.0  1.0
 #
 #-------------------------------------------------------------
 SECTION
@@ -117,8 +117,8 @@ NACA
 0012
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
-CONTROL
-elevator 1.0    0.75     0.0 0.0 0.0  1.0
+#CONTROL
+#elevator 1.0    0.75     0.0 0.0 0.0  1.0
 #
 #-------------------------------------------------------------
 SECTION
@@ -129,8 +129,8 @@ NACA
 0012
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
-CONTROL
-elevator 1.0    0.75     0.0 0.0 0.0  1.0
+#CONTROL
+#elevator 1.0    0.75     0.0 0.0 0.0  1.0
 #
 #-------------------------------------------------------------
 SURFACE
