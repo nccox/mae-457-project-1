@@ -136,7 +136,7 @@ elevator 1.0    0.2667     0.0 0.0 0.0  1.0
 SURFACE
 Vertical Stabilizer
 #Nchordwise  Cspace   Nspanewise  Sspace
-10           1.0      10          0.0
+30           1.0      20          0.0
 #
 TRANSLATE
 0.0   0.0  0.0
@@ -150,7 +150,7 @@ NACA
 
 #Cname   Cgain  Xhinge  HingeVec     SgnDup
 CONTROL
-rudder  -1.0  0.75  0. 0. 0.  1
+rudder  -1.0  0.8333  0. 0. 0.  1
 #
 #------------------------------------------------------------
 SECTION
@@ -161,4 +161,4 @@ NACA
 0008
 
 CONTROL
-rudder  -1.0  0.75  0. 0. 0.  1
+rudder  -1.0  0.53125  0. 0. 0.  1
