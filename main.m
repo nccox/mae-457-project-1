@@ -1,8 +1,8 @@
 % AVL file of aircraft
-aircraft = 'm7-260C.avl';
+aircraft = 'glider2.avl';
 
 % Velocities to test (in knots)
-velocity_knots = 43:5:158;
+velocity_knots = 1:0.5:20;
 % Convert velocities to meters per second
 param = velocity_knots.*0.514444;
 %param = 33:0.1:36;
@@ -10,11 +10,11 @@ param = velocity_knots.*0.514444;
 %param = 33.555215;
 
 % CG location (units aft of LE)
-xcg_inches = 21.895428;
+xcg_inches = 1.5;
 % Convert to meters
 xcg = xcg_inches.*0.0254;
 
-mass = 842.00;
+mass = 0.020;
 
 % Run the AVL demo
 AVL_run(aircraft,param,xcg,mass)

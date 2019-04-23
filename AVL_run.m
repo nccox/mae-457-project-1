@@ -32,7 +32,7 @@ for i = 1:numTests
 	fprintf(runFileID,'D 1.225\n');
 	% Exit the parameters modification area
 	fprintf(runFileID,'\n');
-    fprintf(runFileID,'d2 rm 0\nd3 pm 0\nd4 ym 0\n');
+    fprintf(runFileID,'d1 rm 0\nd2 pm 0\nd3 ym 0\n');
     fprintf(runFileID,'c1\nx %.3f\n\nX\nST\n',xcg);
     
     % Define .out filename

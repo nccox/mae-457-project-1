@@ -1,0 +1,117 @@
+Glider-10DegreeDihedral
+#Mach
+ 0.01   
+#IYsym   IZsym   Zsym
+ 0       0       0.0					#LEFT AS 0 PER INSTRUCTIONS
+#Sref    Cref    Bref
+0.009290304      0.03048       0.3048
+#Xref    Yref    Zref
+0.005     0.0     0				# UPDATE XREF
+#
+#===============================================================
+SURFACE
+Main Wing
+#Nchordwise  Cspace   Nspanwise   Sspace
+10           2.0     
+#
+YDUPLICATE
+0.0
+#
+TRANSLATE
+0.0 0.0 0.0
+#
+ANGLE
+0.0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle     Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0        0.0    0       0.03048    0     100          0
+
+NACA
+0001
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+CONTROL
+flap     1.0    0.7619    0.0 0.0 0.0   1.0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle    Yle        Zle             Chord       Ainc   Nspanwise   Sspace
+0       0.1524     0.052927965         0.0348       0    100          0
+
+NACA
+0001
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+#CONTROL
+#aileron   1.0    0.73846    0.0 0.0 0.0   -1.0
+#
+#===============================================================
+SURFACE 
+Horizontal Stabilizer 
+#Nchordwise  Cspace   Nspanwise   Sspace
+10           1.0      10          0.0
+#
+YDUPLICATE
+0.0
+#
+TRANSLATE
+0.0 0.0 0.0
+#
+ANGLE
+0.0
+#-------------------------------------------------------------
+SECTION
+#Xle    Yle    Zle     Chord    Ainc  Nspanwise  Sspace
+0.1778      0.     0       0.0254       -2.5    0          0
+
+NACA
+0001
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+CONTROL
+elevator 1.0    0.25     0.0 0.0 0.0  1.0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle    Yle     Zle     Chord   Ainc  Nspanwise  Sspace
+0.1778  	0.0508       0       0.0254    -2.5    0          0
+
+NACA
+0001
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+CONTROL
+elevator 1.0    0.25     0.0 0.0 0.0  1.0
+#
+#===============================================================
+SURFACE
+Vertical Stabilizer
+#Nchordwise  Cspace   Nspanewise  Sspace
+30           1.0      20          0.0
+#
+TRANSLATE
+0.0   0.0  0.0
+#------------------------------------------------------------
+SECTION
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.1778     0.     0.0063     0.047625       0.    0          0
+
+NACA
+0001
+
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+#CONTROL
+#rudder  -1.0  0.8333  0. 0. 0.  1
+#
+#------------------------------------------------------------
+SECTION
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.219075       0.     0.041275     0.00635       0.    0          0
+
+NACA
+0001
+
+#CONTROL
+#rudder  -1.0  0.53125  0. 0. 0.  1
